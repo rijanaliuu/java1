@@ -1,0 +1,17 @@
+Java1 - Pergjigjet
+Emri dhe mbiemri: Rijan Aliu
+Varianti: D Shifra Cesarit
+1. switch-i që jep vlere
+a) Në cilin rresht fillon?
+b) Çka ruan në variabël për inputin e parë të shembullit tuaj?
+c) Çka ndodh nese e fshini rreshtin me default? Pse?
+
+2. Një kusht me && ose ||
+a) Në cilin rresht eshte?
+b) Një input ku kushti del true:
+c) Një input ku kushti del false:
+
+3. Ndryshimi juaj
+a) Cilat rreshta i shtuat ose i ndryshuat?
+b) Pse pikerisht aty?
+c) Një input që e provon ndryshimin, dhe output-i që del:

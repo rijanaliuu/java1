@@ -3,21 +3,24 @@ void main() {
 
     IO.println("1. Enkripto");
     IO.println("2. Dekripto");
+    IO.println("3. ROT13");
 
-    int zgjedhja = Integer.parseInt(IO.readln("Zgjedhja (1-2): "));
+    int zgjedhja = Integer.parseInt(IO.readln("Zgjedhja (1-3): "));
 
     var drejtimi = switch (zgjedhja) {
         case 1 -> 1;
         case 2 -> -1;
+        case 3 -> 3;
         default -> 0;
     };
 
     if (drejtimi == 0) {
         IO.println("Zgjedhje e panjohur.");
     } else {
+       String shkronja = IO.readln("Shkronja: ").trim();
+        int zhvendosja =(zgjedhja == 3 ) ? 13 :
+                Integer.parseInt(IO.readln("Zhvendosja (1-25): "));
 
-        String shkronja = IO.readln("Shkronja: ").trim();
-        int zhvendosja = Integer.parseInt(IO.readln("Zhvendosja (1-25): "));
 
         if (shkronja.length() == 1) {
 
