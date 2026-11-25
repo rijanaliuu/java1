@@ -3,15 +3,29 @@ Emri dhe mbiemri: Rijan Aliu
 Varianti: D Shifra Cesarit
 1. switch-i që jep vlere
 a) Në cilin rresht fillon?
+Fillon te rreshti:
+var drejtimi = switch (zgjedhja) {
 b) Çka ruan në variabël për inputin e parë të shembullit tuaj?
+Kur përdoruesi zgjedh 1 (Enkripto), variabla drejtimi ruan vlerën 1.
 c) Çka ndodh nese e fshini rreshtin me default? Pse?
+Programi nuk ka me rast rezerve per zgjedhjet e pavlefshme  ne kete switch expression  mungesa e default mund te shkaktoje gabim  sepse nuk mbulohen te gjitha rastet e mundshme te numrit te plote.
 
 2. Një kusht me && ose ||
 a) Në cilin rresht eshte?
+if (zhvendosja >= 1 && zhvendosja <= 25)
 b) Një input ku kushti del true:
+Zhvendosja 5, sepse është mes 1 dhe 25
 c) Një input ku kushti del false:
+Zhvendosja 30, sepse është më e madhe se 25
 
 3. Ndryshimi juaj
 a) Cilat rreshta i shtuat ose i ndryshuat?
+Kom shtu opsionin 3 ROT13 ndryshova tekstin e zgjedhjes nga 1-2 ne 1-3 shtova case 3 -> 1 dhe ternarin qe cakton zhvendosjen 13 per ROT13
 b) Pse pikerisht aty?
+Sepse u dasht ta shtoja nje menyre te tret te enkriptimit  Me case 3 caktohet drejtimi  ndersa ternari cakton automatikisht zhvendosjen 13 pa pyetur perdoruesin
 c) Një input që e provon ndryshimin, dhe output-i që del:
+Input:
+Zgjedhja: 3
+Shkronja: n
+Output:
+n -> a
